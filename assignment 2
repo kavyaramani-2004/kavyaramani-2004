@@ -1,0 +1,19 @@
+sno=int(input('enter sno'))#200
+sname=input('enter student name')#rani
+s1=int(input('enter s1 marks'))#90
+s2=int(input('enter s2 marks'))#90
+s3=int(input('enter s3 marks'))#95
+total=s1+s2+s3#275
+avg=total//3#91
+if avg>=90:#91>=90
+    print('O-Grade')
+elif avg>=80:
+    print('A-Grade')
+elif avg>=70:
+    print('B-Grade')
+elif avg>=60:
+    print('C-Grade')
+elif avg>=50:
+    print('D-Grade')
+else:
+    print('Pass')
